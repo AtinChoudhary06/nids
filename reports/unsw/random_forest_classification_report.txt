@@ -1,0 +1,12 @@
+Model: random_forest | Dataset: unsw
+
+              precision    recall  f1-score   support
+
+ Brute Force       0.69      0.11      0.19     18184
+         DoS       0.38      0.08      0.13     12264
+     Malware       0.87      0.95      0.91     88893
+      Normal       0.76      0.98      0.86     56000
+
+    accuracy                           0.81    175341
+   macro avg       0.67      0.53      0.52    175341
+weighted avg       0.78      0.81      0.76    175341

@@ -1,0 +1,12 @@
+Model: xgboost | Dataset: nslkdd
+
+              precision    recall  f1-score   support
+
+ Brute Force       0.97      0.06      0.11      2887
+         DoS       0.96      0.83      0.89      7458
+     Malware       0.81      0.64      0.72      2488
+      Normal       0.67      0.97      0.80      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.86      0.62      0.63     22544
+weighted avg       0.82      0.77      0.73     22544
